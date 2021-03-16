@@ -33,11 +33,17 @@
 * touch .gitignore 로 파일 생성
 * .gitignore 파일을 sublime text로 열어서 압축금지 파일 정보 등록
 
-5. local 프로젝트를 압축하여 local 저장소에 옮길 준비를 하라
+5. local 프로젝트를 압축하여 local 저장소에 옮길 준비를 하라(압축리스트에 추가)
 * git add .
 
-6. local 저장소에 옮겨라
-* git commit -m "comment"
+6. local 저장소에 옮겨라(압축)
+* git commit -m "처음"
 
 7. local 저장소에 있는 파일들을 원격저장소로 업로드 하라
+* git push https://github.com/hooninfinity/Biz_403_2021_03_Java.git master
+
+
+## 원격저장소와 연결된 프로젝트에 새로운 코드 추가하기
+* git add .
+* git commit -m "Hello_02 추가"
 * git push https://github.com/hooninfinity/Biz_403_2021_03_Java.git master

@@ -52,4 +52,5 @@
 1. 원격저장소 주소를 별명으로 설정하기
 * git remote add origin https://github.com/hooninfinity/Biz_403_2021_03_Java.git
 * git push -u origin master
-* git push
+
+* 다음부터는 add, commit 명령어들 입력 후에 git push만 입력해주면 인식

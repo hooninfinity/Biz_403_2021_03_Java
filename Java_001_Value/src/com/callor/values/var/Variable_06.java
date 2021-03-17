@@ -4,7 +4,7 @@ public class Variable_06 {
 	
 	public static void main(String[] args) {
 		
-		// 정수형 변수선언과 clear
+		// 정수형 변수선언과 clear(초기화)
 		int num1 = 0;
 		Integer num2 = 0;
 		

@@ -23,7 +23,7 @@ public class Variable_06 {
 		double num5 = 30.0;
 		Double num6 = 30.0;
 		
-		
+		System.out.println();
 	}
 
 }

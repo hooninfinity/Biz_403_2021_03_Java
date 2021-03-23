@@ -25,8 +25,11 @@ public class Pay_01 {
 		nPay %= nPaper; // 총액은 23560원/10000의 나머지 3560을 총액으로 함
 		nPaper /= 2; // nPaper는 1만원을 2로 나눈 값인 5천원이 된다
 		
-		nCount = nPay / nPaper;
-		System.out.println(nPaper +"원권 : " + nCount);
+		// 이런식의 반복 계산이 화폐종류 개수인 10번 교차반복된다.
+		// 5만원을 5로 나누면 1만원, 1만원을 2로 나누면 5천원...
+		
+		nCount = nPay / nPaper; // 이때의 nPay는 3560, nPaper는 5000
+		System.out.println(nPaper +"원권 : " + nCount); // 나눌수없으므로 0
 		nPay %= nPaper;
 		nPaper /= 5;
 

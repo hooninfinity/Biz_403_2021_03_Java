@@ -32,11 +32,12 @@ public class App_02 {
 			System.out.printf("%d반 인원수: %d\n", i+1, intMembers[i]);
 		}
 		
-		// 피자계산 해보자
+		
+		// 이제 간단하게 앞의 피자계산 해보자
 		for (int i = 0; i < 5; i++) {
 			// 학급인원수에 6을 나눈 값을 pizzaBox 변수에 담고
 			int pizzaBox = intMembers[i] / 6;
-			// 만일 학급인원수 / 피자박스*6 한 값이 0보다 크다면 못먹는 사람이 있다는 뜻
+			// 만일 학급인원수 / 피자박스*6 한 값이 0보다 크다면(나머지가 나온다면) 못먹는 사람이 있다는 뜻
 			// pizzaBox에 ++ 하여 추가시킨다
 			if (intMembers[i] % (pizzaBox * 6) > 0) {
 				pizzaBox++;

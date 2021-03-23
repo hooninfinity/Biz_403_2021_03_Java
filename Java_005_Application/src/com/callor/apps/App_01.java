@@ -28,7 +28,7 @@ public class App_01 {
 		// 필요한 box 수 보다 같거나 1 작은 값이 만들어진다
 		pizzaBox = intMembers / pizzaPcs;
 		
-		boolean bYes = intMembers % (pizzaBox * pizzaPcs) == 0;
+		boolean bYes = intMembers % (pizzaBox * pizzaPcs) == 0; // 학생수 % (위에 계산에서 나온 피자박스 수 * 6조각) 이 0일때
 		// if( bYes == false) {
 		if (!bYes) {
 			pizzaBox++;

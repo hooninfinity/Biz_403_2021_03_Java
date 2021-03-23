@@ -18,7 +18,7 @@ public class Pay_01 {
 		// 		3723560 에서 뺀 값이 된다.
 		// nPay = nPay - (nPaper * nCount)
 		// nPay = nPay % nPaper;
-		nPay %= nPaper;
+		nPay %= nPaper; 
 		nPaper /= 5;
 		
 		nCount = nPay / nPaper;

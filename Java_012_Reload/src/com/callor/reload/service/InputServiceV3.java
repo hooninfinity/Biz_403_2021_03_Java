@@ -26,7 +26,7 @@ public class InputServiceV3 {
 				intNum = Integer.valueOf(strNum); // 문자열형 숫자를 정수로 바꿔줌
 			} catch (Exception e) {
 				System.out.println("값은 정수형 숫자로만 입력하세요");
-				continue; // 다시 처음으로 돌아가라고
+				continue; // continue를 만나면 해당 반복부분만 탈출하고 다음번 반복을 이어서한다
 			}
 			if (intNum > 50 && intNum < 150) {
 				intList.add(intNum); //  intList에 입력된 정수를 담음

@@ -27,12 +27,14 @@ public class NumberServiceV7 {
 //			break;
 //		}
 //	}
+
 	
-	public Integer inputScore() {
-		for(int i = 0 ; i < sub.length ; i++) {
-			subScore[i] = sub[i];
-		}
-	}
+	
+//	public Integer inputScore() {
+//		for(int i = 0 ; i < sub.length ; i++) {
+//			subScore[i] = sub[i];
+//		}
+//	}
 	
 	public Integer intNum() {
 		while (true) {

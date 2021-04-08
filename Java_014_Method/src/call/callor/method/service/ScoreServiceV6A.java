@@ -37,8 +37,8 @@ public class ScoreServiceV6A {
 	}
 	
 	public void inputScore() {
-		for(int i = 0 ; i < 5 ; i++) {
-			Integer[] scores = new Integer[subject.length]; // subject의 길이만큼 배열을 생성
+		for(int i = 0 ; i < 5 ; i++) { // 5명 학생의 점수입력 받기 위해 5번 반복
+			Integer[] scores = new Integer[subject.length]; // subject의 길이만큼 배열을 생성해서
 			for(int sb = 0 ; sb < subject.length ; sb++) {
 				scores[sb] = inService.inputValue(subject[sb], 0, 100);
 				if (scores[sb] == null) {

@@ -53,7 +53,6 @@ public class InputServiceV2 {
 	public Integer inputValue(String title, int start, int end) {
 		
 		// 유효성 검사를 수행하겠다는 메시지를 미리 작성
-		
 		String msgTitle = String.format("%s( %d ~ %d 범위의 )", title, start, end);
 		while(true) {
 			Integer intNum = this.inputValue(msgTitle);

@@ -58,7 +58,7 @@ public class InputServiceV2 {
 			Integer intNum = this.inputValue(msgTitle);
 			
 			// this.inputValue(String title) method가
-			// return 해준 값이 null 이 아니면 유효성 검사수행
+			// return 해준 값이 null 이 아니면(QUIT가 입력된게 아니면) 유효성 검사수행
 			if (intNum !=  null) {
 				// 유효성 검사를 통과하지 못하면
 				if (intNum < start || intNum > end) {

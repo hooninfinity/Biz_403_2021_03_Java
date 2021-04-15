@@ -148,6 +148,7 @@ public class ScoreServiceImplV1A implements ScoreService {
 			System.out.print(stu.getGrade() + "\t");
 			System.out.println("=".repeat(80));
 		}
+
 	}
 
 }

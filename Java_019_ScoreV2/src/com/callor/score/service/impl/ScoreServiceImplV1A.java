@@ -133,19 +133,21 @@ public class ScoreServiceImplV1A implements ScoreService {
 		System.out.println("학번\t이름\t학과\t학년\t국어\t영어\t수학\t총점\t평균");
 		System.out.println("-".repeat(80));
 		int nSize = scoreList.size();
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < nSize; i++) {
+			ScoreVO vo = scoreList.get(i);
+			System.out.print(vo.getNum() + "\t");
+			System.out.print(vo.getKor() + "\t");
+			System.out.print(vo.getEng() + "\t");
+			System.out.print(vo.getMath() + "\t");
 		}
-		ScoreVO vo = scoreList.get(i);
-		System.out.print(vo.getNum() + "\t");
-		System.out.print(vo.getKor() + "\t");
-		System.out.print(vo.getEng() + "\t");
-		System.out.print(vo.getMath() + "\t");
-		StudentVO stu = studentList.get(i);
-		System.out.print(stu.getName() + "\t");
-		System.out.print(stu.getDept() + "\t");
-		System.out.print(stu.getGrade() + "\t");
-		System.out.println("=".repeat(80));
-
+		int sSize = studentList.size();
+		for(int j = 0; j < sSize; j++) {
+			StudentVO stu = studentList.get(j);
+			System.out.print(stu.getName() + "\t");
+			System.out.print(stu.getDept() + "\t");
+			System.out.print(stu.getGrade() + "\t");
+			System.out.println("=".repeat(80));
+		}
 	}
 
 }

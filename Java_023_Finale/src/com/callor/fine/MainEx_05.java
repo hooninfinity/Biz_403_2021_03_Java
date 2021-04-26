@@ -14,24 +14,25 @@ public class MainEx_05 {
 		}
 		
 		// 배열 100개에 저장된 값중에서 소수인 값들만 출력
+		// Prime(소수)는 2 ~ (자신-1)까지의 수로 나누었을 때 나머지가 0이 한번도 나오지 않아야 한다.
 		for(int i = 0 ; i < nums.length ; i++) {
 			
 			int index = 0;
-			for(index = 2; index < nums.length ; index++) {
-				if (? % ?? == 0) {
+			int numP = nums[i];
+			for(index = 2; index < numP ; index++) {
+				if (numP % index == 0) {
 					break;
 				}
 			}
-			if( ? < ??) {
-				System.out.println(?);
+			if(index < numP ) {
+				System.out.println(numP + "는 소수가 아니다");
 			} else {
-				System.out.println(?);
+				System.out.println(numP + "는 소수");
 			}
-			
 		}
 		
 		
-	}
+	} // end main
 	
 
 }

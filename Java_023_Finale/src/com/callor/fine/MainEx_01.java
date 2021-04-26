@@ -3,7 +3,7 @@ package com.callor.fine;
 import java.util.Random;
 
 public class MainEx_01 {
-	
+	// 문제 1. main메소드 문법 작성 : public static void main(String[] args){ }
 	public static void main(String[] args) {
 		
 		int num1 = 0;

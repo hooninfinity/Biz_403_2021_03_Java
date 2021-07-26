@@ -9,6 +9,7 @@ public class MainEx_02 {
 		int index = 3;
 		// 정답 : 객체배열은 사용전 개별요소를 반드시 생성(초기화)해주어야 한다.
 		// scoreVO[index] = new ScoreVO(); 추가
+		scoreVO[index] = new ScoreVO();
 		scoreVO[index].setNum("0001");
 		scoreVO[index].setKor(90);
 		scoreVO[index].setEng(88);
